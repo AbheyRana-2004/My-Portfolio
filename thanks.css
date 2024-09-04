@@ -1,0 +1,12 @@
+body{
+     background:linear-gradient(50deg,grey,pink,#cdb4db,#ffc8dd,#ffafcc,#a2d2ff,grey);
+}
+h1{
+	margin-top:100px;
+	justify-content:absolute;
+}
+p{
+	
+	text-align:center;
+	font-size:30px;
+}

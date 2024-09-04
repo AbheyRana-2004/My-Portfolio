@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/09.jpg?3);
+}
+
+.nav-link{
+	text-decoration:none;
+	color:white;
+	margin-top:2%;
+}
+.nav-link:hover{
+	color:orange;
+	text-decoration:underline;
+}
+
+.navtop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	font-size: 22px;
+} 
+
+li ,ul {
+	color: white;
+	list-style: none;
+}
+
+.navtop img{
+	float:left;
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	border:10px;
+}
+ 
+h1{
+    text-align:center;
+	text-shadow:2px 2px black;
+	font-size:50px;
+}
+ p{
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px black;
+	line-height:30px;
+	letter-spacing:2px;
+}
+.box1 img{
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	border:10px;
+	margin-top:5%;
+	margin-bottom: 2%;
+}
+
+.button{
+	color:black;
+	background-color: lightblue;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+}
+.button:active{
+	box-shadow:0 5px #666;
+	transform:traslateY(5px);
+}
+
+footer{
+    background-color: #111;
+	
+}
+.footerContainer{
+    width: 100%;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom p{
+	text-align: center;
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction:row;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 5px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+	}
+	.navbar{
+		font-size:10px;
+	}
+	.nav-link{
+		font-size:20px;
+    }
+    .footerBottom p{
+	padding-right:15%;
+	}
+
+}
